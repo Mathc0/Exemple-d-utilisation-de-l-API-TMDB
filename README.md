@@ -1,0 +1,1 @@
+This app uses TMDB's API to display the popular movies registered on the website, you can click on a movie poster to add it to your favorite list. If you wish to show more movies, just click on the button at the bottom of the page.
