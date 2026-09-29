@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Films populaires</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <button class="burger" aria-label="Menu" style="cursor: pointer">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <div class="flex">
+      <div class="barre-nav flex w-50 bg-yellow-100">
+        <nav>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#">Films</a></li>
+            <li><a href="#">À propos</a></li>
+          </ul>
+          <div class="favoris">
+            <a>Nombre de favoris :</a> <a class="compteur"></a>
+          </div>
+            <ul class="films-favoris">
+            </ul>
+        </nav>
+      </div>
+      <div class="movie-list flex flex-1 flex-wrap"></div>
+    </div>
+    <p id="films"></p>
+    <div class="page_suivante" style="text-align: center;">
+      <button>Page suivante</button>
+    </div>
+    
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
